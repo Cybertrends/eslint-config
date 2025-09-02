@@ -2,18 +2,6 @@ export default {
   languageOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
-    globals: {
-      process: 'readonly',
-      module: 'readonly',
-      require: 'readonly',
-      __dirname: 'readonly',
-      __filename: 'readonly',
-      exports: 'readonly',
-      Buffer: 'readonly',
-      setImmediate: 'readonly',
-      clearImmediate: 'readonly',
-      global: 'readonly',
-    },
   },
   rules: {
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
