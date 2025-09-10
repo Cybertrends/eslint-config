@@ -6,6 +6,7 @@ export default {
   rules: {
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
     'indent': ['error', 2],
+    'no-tabs': 'error',
     'no-trailing-spaces': 'error',
     'eol-last': ['error', 'always'],
     'quotes': ['error', 'single'],
