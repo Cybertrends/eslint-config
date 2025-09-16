@@ -24,5 +24,10 @@ export default {
       'error',
       {blankLine: 'always', prev: '*', next: 'block-like'},
     ],
+    // TypeScript rule: error on unused vars, allow unused vars starting with _
+    '@typescript-eslint/no-unused-vars': ['error', {
+      argsIgnorePattern: '^_',
+      varsIgnorePattern: '^_',
+    }],
   },
 }
