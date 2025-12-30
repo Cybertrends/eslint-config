@@ -1,3 +1,9 @@
+## [1.2.1] - 2025-12-30
+
+### ⚙️ Miscellaneous Tasks
+
+- Fix dependabot file name
+- Update packages
 ## [1.2.0] - 2025-09-16
 
 ### 🚀 Features
@@ -7,6 +13,7 @@
 ### ⚙️ Miscellaneous Tasks
 
 - Versioning script with changelog
+- *(release)* 1.2.0
 ## [1.1.0] - 2025-09-10
 
 ### 🚀 Features
